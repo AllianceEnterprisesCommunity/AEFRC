@@ -1,11 +1,9 @@
-<#
-    .DESCRIPTION
-        An example runbook which gets all the ARM resources using the Run As Account (Service Principal)
-
-    .NOTES
-        AUTHOR: Azure Automation Team
-        LASTEDIT: Mar 14, 2016
-#>
+workflow Set-RunbookConfiguration
+{
+    Write-Progress -Activity "This is a progress stream..."
+    Write-Verbose -Message "This is a verbose message..."
+    Write-Ouptut "Generating output"
+}
 
 $connectionName = "AzureRunAsConnection"
 try
