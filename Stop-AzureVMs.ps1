@@ -1,7 +1,7 @@
 <#
 
     .SYNOPSIS 
-        Stops all the Azure VMs in a specific Azure Resource Group
+        Updated: Stops all the Azure VMs in a specific Azure Resource Group
 
     .DESCRIPTION
         This sample runbooks stops all of the virtual machines in the specified Azure Resource Group. 
