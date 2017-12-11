@@ -1,4 +1,4 @@
-workflow Set-RunbookConfiguration
+workflow Set-Craig1
 {
     Write-Progress -Activity "This is a progress stream..."
     Write-Verbose -Message "This is a verbose message..."
